@@ -11,7 +11,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{B40E
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{BA0D1B90-DABF-4501-A21C-D9B09A59783A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EShopMMA.API", "src\Bootstrapper\EShopMMA.API\EShopMMA.API.csproj", "{F7810F5F-1DB7-4490-9C58-EA8E9935232E}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F7810F5F-1DB7-4490-9C58-EA8E9935232E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7810F5F-1DB7-4490-9C58-EA8E9935232E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7810F5F-1DB7-4490-9C58-EA8E9935232E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7810F5F-1DB7-4490-9C58-EA8E9935232E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
@@ -19,5 +31,6 @@ Global
 		{6A9270C6-91FA-49F5-95EF-37F3CB5D0834} = {B42188BD-8B33-40E8-A1F9-87C48452424E}
 		{B40EA7AF-16CB-4979-BE48-2671A48E02FC} = {B42188BD-8B33-40E8-A1F9-87C48452424E}
 		{BA0D1B90-DABF-4501-A21C-D9B09A59783A} = {B42188BD-8B33-40E8-A1F9-87C48452424E}
+		{F7810F5F-1DB7-4490-9C58-EA8E9935232E} = {6A9270C6-91FA-49F5-95EF-37F3CB5D0834}
 	EndGlobalSection
 EndGlobal
