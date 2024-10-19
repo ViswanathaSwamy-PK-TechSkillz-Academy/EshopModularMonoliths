@@ -1,10 +1,23 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35410.144 d17.12
+VisualStudioVersion = 17.12.35410.144
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B42188BD-8B33-40E8-A1F9-87C48452424E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Bootstrapper", "Bootstrapper", "{6A9270C6-91FA-49F5-95EF-37F3CB5D0834}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{B40EA7AF-16CB-4979-BE48-2671A48E02FC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{BA0D1B90-DABF-4501-A21C-D9B09A59783A}"
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6A9270C6-91FA-49F5-95EF-37F3CB5D0834} = {B42188BD-8B33-40E8-A1F9-87C48452424E}
+		{B40EA7AF-16CB-4979-BE48-2671A48E02FC} = {B42188BD-8B33-40E8-A1F9-87C48452424E}
+		{BA0D1B90-DABF-4501-A21C-D9B09A59783A} = {B42188BD-8B33-40E8-A1F9-87C48452424E}
 	EndGlobalSection
 EndGlobal
