@@ -1,4 +1,4 @@
-﻿namespace Catalog;
+﻿namespace Ordering;
 
 public class Class1
 {

@@ -1,7 +1,6 @@
-﻿namespace Basket
-{
-    public class Class1
-    {
+﻿namespace Basket;
 
-    }
+public class Class1
+{
+
 }
