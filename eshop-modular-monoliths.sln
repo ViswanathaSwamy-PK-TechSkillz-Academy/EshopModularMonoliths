@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Basket", "src\Modules\Baske
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ordering", "src\Modules\Ordering\Ordering\Ordering.csproj", "{49F9137A-D34F-4E6D-AA3D-9F74869FF9DE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared", "src\Shared\Shared\Shared.csproj", "{F38F959B-FC4E-4A24-8532-A577B1378184}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -53,6 +55,10 @@ Global
 		{49F9137A-D34F-4E6D-AA3D-9F74869FF9DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{49F9137A-D34F-4E6D-AA3D-9F74869FF9DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{49F9137A-D34F-4E6D-AA3D-9F74869FF9DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F38F959B-FC4E-4A24-8532-A577B1378184}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F38F959B-FC4E-4A24-8532-A577B1378184}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F38F959B-FC4E-4A24-8532-A577B1378184}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F38F959B-FC4E-4A24-8532-A577B1378184}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -68,5 +74,6 @@ Global
 		{55E8DE8F-0B22-4BAF-8B72-6151B8E39A2C} = {2F911C4A-401A-4DA9-BC58-93B5A378DADC}
 		{5FD7702F-4EA7-4A79-ACAA-859B876FC88C} = {209548E9-B329-43F9-95F2-8055C34C8BAA}
 		{49F9137A-D34F-4E6D-AA3D-9F74869FF9DE} = {488F9631-5B00-4491-8AE9-00A15346151D}
+		{F38F959B-FC4E-4A24-8532-A577B1378184} = {BA0D1B90-DABF-4501-A21C-D9B09A59783A}
 	EndGlobalSection
 EndGlobal
