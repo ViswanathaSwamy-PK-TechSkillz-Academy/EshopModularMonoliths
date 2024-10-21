@@ -1,10 +1,12 @@
+using Catalog.Extensions;
+
 WebApplicationBuilder builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services
-    .AddCatalogModule()
-    .AddBasketModule()
-    .AddOrderModule();
+    .AddCatalogModule(builder.Configuration);
+//.AddBaskeyModule(builder.Configuration)
+//.AddOrderModule(builder.Configuration);
 
 WebApplication app = builder.Build();
 

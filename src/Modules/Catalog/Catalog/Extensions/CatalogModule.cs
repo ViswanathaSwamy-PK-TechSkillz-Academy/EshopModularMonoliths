@@ -1,7 +1,7 @@
 ﻿using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace Catalog;
+namespace Catalog.Extensions;
 
 public static class CatalogModule
 {
